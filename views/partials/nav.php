@@ -10,9 +10,9 @@
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                         <a href="/" class=" <?= urlIs("/") ? "bg-gray-900 text-white" : "text-gray-300" ?> text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
 
-                        <a href="/about.php" class=" <?= urlIs("/about.php") ? "bg-gray-900 text-white" : "text-gray-300" ?> text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About us</a>
+                        <a href="/about" class=" <?= urlIs("/about") ? "bg-gray-900 text-white" : "text-gray-300" ?> text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About us</a>
 
-                        <a href="/contact.php" class=" <?= urlIs("/contact.php") == "/contact.php" ? "bg-gray-900 text-white" : "text-gray-300" ?> text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact us</a>
+                        <a href="/contact" class=" <?= urlIs("/contact") == "/contact.php" ? "bg-gray-900 text-white" : "text-gray-300" ?> text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact us</a>
 
                     </div>
                 </div>
