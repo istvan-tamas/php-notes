@@ -1,2 +1,2 @@
 # php-notes
-Simple note taking app written in PHP
+Note taking app and simple MVC training project
